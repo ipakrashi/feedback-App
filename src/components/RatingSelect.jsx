@@ -1,8 +1,15 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useContext } from 'react'
+import FeedbackContext from '../context/FeedbackContext.js'
 
 function RatingSelect({ select }) {
+    const { feedbackEdit } = useContext(FeedbackContext)
     const [selected, setSelected] = useState(10)
+
+    useEffect(() => {
+        setSelected(feedbackEdit.item.rating)
+    }, [feedbackEdit])
 
     let handleChange = (e) => {
         setSelected(+e.target.value) //sets the checked value of the radio buttons
