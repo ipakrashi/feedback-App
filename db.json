@@ -24,6 +24,11 @@
             "id": 5,
             "rating": 3,
             "text": "This is a new feedback generated as a post request from an api client"
+        },
+        {
+            "id": 6,
+            "rating": 1,
+            "text": "This is a new feedback generated as a post request from an api client"
         }
     ],
     "$schema": "./node_modules/json-server/schema.json"
