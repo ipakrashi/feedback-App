@@ -1,0 +1,30 @@
+{
+    "feedback": [
+        {
+            "id": 1,
+            "rating": 10,
+            "text": "This is the feedback item 1 coming from the backend"
+        },
+        {
+            "id": 2,
+            "rating": 8,
+            "text": "This is the feedback item 2 coming from the backend"
+        },
+        {
+            "id": 3,
+            "rating": 8,
+            "text": "This is the feedback item 3 coming from the backend"
+        },
+        {
+            "id": 4,
+            "rating": 9,
+            "text": "This is a new feedback generated as a post request from an api client"
+        },
+        {
+            "id": 5,
+            "rating": 3,
+            "text": "This is a new feedback generated as a post request from an api client"
+        }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+}
